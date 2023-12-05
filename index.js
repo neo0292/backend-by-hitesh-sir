@@ -1,3 +1,4 @@
+require ('dotenv').config();
 const express = require('express')
 
 const app = express();
@@ -12,5 +13,5 @@ app.get('/login',(req, res)=>{
 });
 
 app.listen(port,()=>{
-  console.log(`Server listening at ${port}`);
+  console.log(`Server listening at ${process.env.PORT}`);
 });
