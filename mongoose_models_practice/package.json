@@ -1,0 +1,19 @@
+{
+  "name": "models",
+  "version": "1.0.0",
+  "description": "mongoose models practice",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose",
+    "models"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.0.3"
+  }
+}
